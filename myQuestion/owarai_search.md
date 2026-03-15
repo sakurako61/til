@@ -12,3 +12,8 @@ deviseのデメリット:
 カスタマイズが複雑になりがち
 面接で「認証の仕組みを説明してください」と聞かれた際に答えづらい可能性
 ```
+
+# 2026-03-15
+### 環境構築
+- .github/workflows/ci.ymlのDB設定がmysqlになっていてテストが通らなかった
+- config/database.ymlのファイルはdefault、development、testそれぞれの記載が必要だった
