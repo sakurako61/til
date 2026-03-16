@@ -17,3 +17,8 @@ deviseのデメリット:
 ### 環境構築
 - .github/workflows/ci.ymlのDB設定がmysqlになっていてテストが通らなかった
 - config/database.ymlのファイルはdefault、development、testそれぞれの記載が必要だった
+
+# 2026-03-16
+### daisyUiの導入
+- SVGという存在を初めて知った
+- サイドバーは常にアイコンは表示させておいて、開いたときに文字も表示させるようにする予定
